@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/norml_code_btn"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="标准生成二维码" />
+
+    <ImageView
+        android:id="@+id/normal_code_iv"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"/>
+
+    <Button
+        android:id="@+id/nomargin_code_btn"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="20dp"
+        android:text="去除白边生成二维码" />
+
+    <LinearLayout
+        android:id="@+id/out_ll"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/nomargin_code_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
